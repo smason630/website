@@ -58,6 +58,18 @@ nav {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  display: block;
-  float: left;
+}
+
+footer   { color: #333333;
+		   font-size: .75em;
+		   font-style: italic; }
+div h2 {
+    padding: 40px;
+    font-size: 30px;
+    color: black;
+}
+.mainbody {
+    display: flex;
+  justify-content: space-evenly;
+  align-items: center;
 }
