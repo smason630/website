@@ -10,7 +10,7 @@ body {
 .logo
 {
    font-family: sans-serif;
-  color: black;
+  color: white;
   text-transform: uppercase;
   letter-spacing: 5px;
   font-size: 20px;
@@ -23,7 +23,7 @@ nav {
   min-height: 10vh;
   background-color: #000000;
   font-family: sans-serif;
-  color: #FFFFFF;
+  
 }
 .nav-links {
   display: flex;
@@ -37,7 +37,7 @@ nav {
 
 .nav-links a {
   font-family: sans-serif;
-  color: black;
+  color: white;
   text-decoration: none;
   letter-spacing: 3px;
   font-weight: bold;
