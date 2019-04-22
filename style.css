@@ -2,9 +2,27 @@ main
 {
     background-color: #e6e6fa;
 }
+body {
+    overflow-x: hidden;
+    position: relative;
+    height: 100%;
+}
 .logo
 {
-    
+   font-family: sans-serif;
+  color: black;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-size: 20px;
+  cursor: pointer; 
+}
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 10vh;
+  background-color: #f1f2e9;
+  font-family: sans-serif;
 }
 .nav-links {
   display: flex;
