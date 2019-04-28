@@ -73,3 +73,16 @@ div h2 {
   justify-content: space-evenly;
   align-items: center;
 }
+
+@media only all and (max-width: 768px) {
+    nav {
+        float: left;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      height: 40px;
+      background-color: #000000;
+      font-family: sans-serif;
+    }
+}
+}
