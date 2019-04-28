@@ -82,6 +82,7 @@ div h2 {
     }
     nav {
         padding: 0;
+        float: left;
     }
     nav a {
         display: block;
