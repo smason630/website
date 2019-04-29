@@ -75,27 +75,13 @@ div h2 {
 }
 
 @media only all and (max-width: 768px) {
-     h1 {
-        height: 100%;
-        font-size: 1.5em;
-        padding-left: 0.3em;
-    }
-    nav {
-        padding: 0;
-        float: left;
-    }
-    nav a {
-        display: block;
-        padding: 0.2em;
-        font-size: 1.3em;
-        border-bottom: 1px;
-        border-bottom-color: #330000;
-    }
-    nav ul {
-        margin: 0;
-        padding: 0;
-    }
-    .nav-links{
-        float: left;
+         nav { float: left;
+           width: 150px;
+           letter-spacing:0.1em;
+           font-weight: bold;
+    } 
+    nav ul { list-style-type: none; 
+             margin: 0;
+             padding: 0;
     }
 }
